@@ -32,11 +32,17 @@ a {
     background-color: #4B8CBE;
 }
 
-.page-icon {
+.page-icon-container {
     background: white;
-    padding: 15% 10%;
-    border-radius: 80px; 
+    padding: 15% 20%;
+    border-radius: 80px;
     color: #F7D784;
+}
+
+.page-icon {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
 }
 
 .page-name {
@@ -60,8 +66,9 @@ a {
 .header-container {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 20%;
     align-items: center;
+    margin-right: 5%;
 }
 
 .page-logo {
@@ -69,4 +76,28 @@ a {
     font-family: 'Nova Slim', cursive;
     color: #0B5B98;
     cursor: pointer;
+}
+
+.header-icon-container {
+    background: #0B5B98;
+    padding: 5% 7%;
+    border-radius: 60%;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-icon {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.notif {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    background: red;
+    padding: 1% 8%;
+    border-radius: 50%;
+    color: white;
 }

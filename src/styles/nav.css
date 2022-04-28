@@ -1,0 +1,15 @@
+.sidebar {
+    height: 100%;
+    z-index: 1;
+    width: 18%;
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 1%;
+}
+
+.main-profil {
+    margin-left: 20%;
+}
